@@ -12,21 +12,29 @@ body {
   color: var(--main-color);
 }
 
+.conteiner {
+  width: 1200px;
+  border: 1px solid red;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p{
+p {
   margin: 0;
 }
 
-img{
+img {
   display: block;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
@@ -36,7 +44,33 @@ ul{
 }
 
 /* HEADER */
+.nav-header {
+  display: flex;
+}
+
+.conteiner-header {
+  display: flex;
+}
+
+.header-list {
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.header-list-nav {
+  margin-left: 93px;
+}
+
+.header-link {
+  padding: 32px 0;
+}
+
 .logo {
+  display: flex;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -44,6 +78,8 @@ ul{
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
+
+  align-items: center;
 }
 
 .logo-web {
@@ -93,9 +129,11 @@ ul{
   margin-bottom: 30px;
 }
 
-
 .hero-section {
   background-color: var(--bg-footer);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 
 /* HERO BUTTON */
@@ -115,7 +153,13 @@ ul{
 }
 
 /* FEATURES */
-.sect-features{
+
+.feature-list {
+  display: flex;
+  gap: 30px;
+}
+
+.sect-features {
   padding: 94px 0px;
 }
 
@@ -138,7 +182,7 @@ ul{
 }
 
 /* what we do */
-.sect-do{
+.sect-do {
   padding-bottom: 94px;
 }
 
@@ -149,15 +193,14 @@ ul{
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  margin-bottom:50px ;
+  margin-bottom: 50px;
 }
 
 /* my team */
-.sect-team{
+.sect-team {
   padding: 94px 0px;
-  background-color:var(--secondary-bg-color);
+  background-color: var(--secondary-bg-color);
 }
-
 
 .teammates {
   font-weight: 500;
@@ -196,7 +239,7 @@ ul{
   color: var(--accent-color);
 }
 
-.address{
+.address {
   padding: 20px 0 9px;
 }
 
